@@ -46,7 +46,7 @@ function App() {
       setTimeout(fetchData, fetchInterval);
       try {
         //const response = await fetch('https://server-lyart-nine.vercel.app/api', {
-        const response = await fetch('http://localhost:3005/api', {
+        const response = await fetch('https://fire-server-nnijiuctj-abdelrahmanelzarka.vercel.app/api', {
           method: 'POST',  
           headers: {
             
